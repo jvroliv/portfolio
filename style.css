@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #85bfcd;
+    }
+
+    .cabeçalho-imagem{ 
+        width: 5%;
+        border-radius: 100%;
+    }
+    .cabeçalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+        background-color: #d6d6d6;
+    }
+    .cabeçalho-menu {
+        display: flex;
+        gap: 32px;
+    }
+    .cabeçalho-menu-item {
+        font-family: 'Bebas Neue', cursive;
+        color: #fab10c;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .conteudo {
+        border-top: 2px solid #d6d6d6;
+        margin-bottom: 48px;
+    }
+    .conteudo-principal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .conteudo-principal-escrito-titulo {
+        font-family: 'Bangers', cursive;
+        font-weight: 400;
+        font-size: 64px;
+        color: #d6d6d6    
+    }
+    .conteudo-principal-escrito-subtitulo {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #d6d6d6; 
+    }
+    .conteudo-principal-escrito-botao {
+        background-color: #fab10c;
+        width: 180px;
+        height: 60px;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+        border-radius: 15px;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #d6d6d6;
+    }
+    .conteudo-principal-imagem {
+        height: 430px;
+    }
