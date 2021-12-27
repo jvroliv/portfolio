@@ -73,6 +73,42 @@ body {
         font-size: 24px;
         color: #d6d6d6;
     }
+    .conteudo-principal-escrito-botao:hover{
+        background-color: rgba(236,214, 196, 0.53);
+    }
+
     .conteudo-principal-imagem {
         height: 430px;
+        border-radius: 20px;
+    }
+    .conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:24px;
+        margin-top: 40px;
+    }
+    .conteudo-secundario-titulo {
+        border-top: 3px solid #d6d6d6;
+        padding-top: 40px;
+        font-family: 'Bangers', cursive;
+        font-weight: 400;
+        font-size: 30px;
+        color: #d6d6d6;
+        margin-bottom: 16px;
+    }
+    .conteudo-secundario-paragrafo {
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 300;
+        font-size: 24px;
+        color: #d6d6d6;
+    }
+    .rodape{
+        background-color: #d6d6d6;
+    }
+    .rodape-imagem{
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+        
     }
