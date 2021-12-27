@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background-color: #85bfcd;
+    background-color: #254252;
     }
 
     .cabeçalho-imagem{ 
@@ -21,22 +21,22 @@ body {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        padding: 24px;
-        background-color: #d6d6d6;
+        padding: 10px;
+        background-color: #171c2d;
     }
     .cabeçalho-menu {
         display: flex;
-        gap: 32px;
+        gap: 30px;
     }
     .cabeçalho-menu-item {
-        font-family: 'Bebas Neue', cursive;
+        font-family: 'Open Sans', sans-serif;
         color: #fab10c;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 24px;
     }
     .conteudo {
-        border-top: 2px solid #d6d6d6;
-        margin-bottom: 48px;
+        border-top: 2px solid #171c2d;
+        margin-bottom: 100px;
     }
     .conteudo-principal {
         display: flex;
@@ -50,16 +50,16 @@ body {
         gap: 32px;
     }
     .conteudo-principal-escrito-titulo {
-        font-family: 'Bangers', cursive;
+        font-family: 'Bebas Neue', cursive;
         font-weight: 400;
         font-size: 64px;
         color: #d6d6d6    
     }
     .conteudo-principal-escrito-subtitulo {
-        font-family: 'Bebas Neue', cursive;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 400;
         font-size: 24px;
-        color: #d6d6d6; 
+        color: #f9982f; 
     }
     .conteudo-principal-escrito-botao {
         background-color: #fab10c;
@@ -91,23 +91,23 @@ body {
     .conteudo-secundario-titulo {
         border-top: 3px solid #d6d6d6;
         padding-top: 40px;
-        font-family: 'Bangers', cursive;
+        font-family: 'Bebas Neue', cursive;
         font-weight: 400;
         font-size: 30px;
         color: #d6d6d6;
         margin-bottom: 16px;
     }
     .conteudo-secundario-paragrafo {
-        font-family: 'Bebas Neue', cursive;
-        font-weight: 300;
-        font-size: 24px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+        font-size: 22px;
         color: #d6d6d6;
     }
     .rodape{
-        background-color: #d6d6d6;
+        background-color: #171c2d;
     }
     .rodape-imagem{
-        height: 200px;
+        height: 150px;
         display: block;
         margin: 0 auto;
         
